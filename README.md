@@ -14,3 +14,7 @@ generate_qr_code(link, back_color, fill_color, size=5, error_correction='H')  - 
   - size  -   этим параметром можно менять размер получаемойкартинки
   
   - error_correction  -   уровень коррекции ошибок (30% по умолчанию - H, подробнее https://pypi.org/project/qrcode/)
+
+
+
+В requirements.txt  дано название требуемых для работы пакетов
