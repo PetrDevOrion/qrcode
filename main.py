@@ -19,14 +19,14 @@ def generate_qr_code(link, back_color, fill_color, size=5, error_correction='H')
 
   img = qr.make_image(back_color = back_color, fill_color = fill_color )
 
-  img.save("some_file.png")
+  img.save("some_file.png")                                                #  сохранение картинки в текущую папку
 
 
 
 def main():
   link = 'https://docs-python.ru/packages/generator-qr-kodov/'
 
-  generate_qr_code(link, 'black', (0, 204, 204), 5)
+  generate_qr_code(link, 'black', (0, 204, 204), 5)                        #  описание фукнции в readme.md
 
 
 
