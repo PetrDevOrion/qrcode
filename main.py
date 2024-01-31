@@ -28,8 +28,6 @@ def main():
 
   generate_qr_code(link, 'black', (0, 204, 204), 5)
 
-  print(qr.error_correction)
-
 
 
 if __name__ == "__main__": 
